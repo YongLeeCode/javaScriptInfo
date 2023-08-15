@@ -1,0 +1,9 @@
+// innerHTML insertAdjacentHTML 차이점
+
+> innerHTML은 js에서 html에 ??을 추가할 수 있다.
+  이때 추가 되었을 때 rerender(새로고침?)이 되어서 작성하던 것들이 사라진다.
+
+> insertAdjacentHTML 또한 기능은 비슷하다.
+  하지만 rerender가 되지 않아서 user가 작성하던 것이 사라지지 않는다.
+  더 빠르게 반응한다.
+

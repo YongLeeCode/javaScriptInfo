@@ -1,0 +1,23 @@
+
+// getElemenyById와 querySelector의 차이점
+
+> querySelector같은 경우에는 특정 id나 class 이름과 함께 이것이 id인지 class인지 정확하게 기입해야한다.
+선택자와 일치하는 첫 번째 엘리먼트 객체를 반환합니다.
+일치하는 엘리먼트가 없다면 null을 반환합니다.
+ex) document.querySelectorAll(".div1");
+querySelector와 querySelectorAll의 차이점:
+ - querySelector는 아무런 옵션을 붙이지 않는다면 제일 위해 클래스나 아이디에 해당하는 값을 가져온다.
+ - querySelector는 배열형식으로 클래스에 해당하는 것들을 가져온다.
+file 'querySelectorAndGetById' 참조.
+
+> getElemenyById or getElementByClassName는 
+-id명 혹은 class명과 일치하는 엘리먼트 객체를 반환합니다.
+-일치하는 엘리먼트가 없다면 null을 반환합니다.
+ex) element = document.getElementById(id);
+
+대체로 querySelector는 getElementById에 비해 연산이 느립니다. (약 1.3배)
+다만 큰 성능 차이는 아닙니다. querySelector의 초당 연산량은 약 700만 회이기 때문입니다.
+또한 querySelector는 getElementByID에 비해 브라우저의 지원 범위가 좁습니다.
+그러나 querySelector의 장점은 생산성과 편의성의 측면에서 크게 나타납니다.
+id, class, [data-*=""],input[name=""]등 다양한 선택자를 사용할 수 있기 때문입니다.
+

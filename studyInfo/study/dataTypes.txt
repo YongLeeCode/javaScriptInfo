@@ -1,0 +1,41 @@
+JavaScript has 8 Datatypes
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+>Numbers
+ - important for calcaulations and code where you need to 'work with a number'
+ ex) 2, -3, 22.13
+
+>Strings
+ - important for outputting results, gathering input
+ ex) 'hi', "hi", `hi`
+
+>Booleans
+ - important for conditional code and situations where you only have 2 options
+ ex) true/false
+
+>Object
+ - important for grouped, related data, helps you with organizing data
+ ex) {name: 'Max', age: 31, gender: 'male'}
+
+>Array Object
+ - important for list data, unknown amounts of data
+ ex) [1,3,5,7]
+
+>Date Object
+ ex) const date = new Date("2022-03-25");
+
+
+
+
+
+
+
+
+  

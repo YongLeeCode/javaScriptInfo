@@ -1,0 +1,24 @@
+
+> Switch Case
+ - if는 여러 부등호 >, <, <= 등을 사용할 때 쓰는게 좋지만
+    switch case는 ===만 필요할 때 쓰면 훨씬 효율적이다.
+ - default는 else와 비슷하게 case에 부합되는 것이 없을 때 발생하는 이벤트다.
+switch (a(어떤 값)){
+    case A(어떤 값과 비교):
+        조건들
+        break;
+    case B:
+        조건들
+        break;
+    default:
+
+}
+
+위의 값은 밑에 if문과 거의 동일하다.
+if(a === A){
+
+} else if(a === B){
+
+} else {
+
+}

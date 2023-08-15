@@ -1,0 +1,3 @@
+>Arrays
+ - important for list data, unknown amounts of data
+ ex) [1,3,5,7]

@@ -1,0 +1,22 @@
+
+// attribute와 property의 차이점
+
+> attribute
+-attribute 는 html 문서에서 elements 에 추가적인 정보를 넣을 때 사용되는 요소입니다.
+ex) <div class= ‘my-class’></div>라는 ‘my-class’라는 클래스 속성을 가진 div 요소에서 
+    div 는 element(요소) 이고 
+    class 는 attribute(속성) 가 되며 
+    ‘my-class’ 는 class attribute의 value(값)가 됩니다.
+
+> property
+-property는 html DOM 안에서 attribute 를 가리키는(혹은 대신하는) 표현입니다.
+
+> attribute와 property를 구분하는 차이 또는 차이점이 무엇?
+attribute는 html document/file 안에서 property 는 html DOM tree안에서 존재합니다. 
+이것이 뜻하는 것은 attribute는 정적으로 변하지 않고 
+property는 동적으로 그 값이 변할 수 있다는 것을 내포하고 있습니다. 
+ex) 체크박스 태그가 있을 때 유저가 체크박스에 체크를 하면 attribute의 상태는 변하지 않지만 
+property의 상태는 checked로 변하게 됩니다.
+
+한줄요약: attribute는 html, css에 있는 속성들이라 비동적이고, 
+        property는 js에 있는 속성들이기 때문에 동적이다.

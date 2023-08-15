@@ -1,0 +1,71 @@
+Types of Javascript Operators
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Type Operators
+- Ternary Operators
+- Bitwise Operators
+- String Operators
+
+
+> Arithmetic 
+    => + (addition)
+    => - (subtraction)
+    => * (Multiplication)
+    => ** (exponentiation제곱) 
+    => / (division)
+    => % (moldulus) 
+    => ++ (increment)
+    => -- (decrement)
+
+> Assignment 
+    => (=, +=, -=, *=, /=, %=, **=)
+    
+> Comparison
+    => (===, ==, !=, !==, >, <, >=, <=, ?(Ternary operator))
+
+> Logical
+    => && and
+    => || or
+    => ! not
+    =>!!란?
+        논리 부정 연산자인 논리 NOT을 두 번 사용한 것
+        !!를 사용하는 주된 이유: 변수나 표현식의 값을 명시적으로 불리언 타입으로 변환하기 위해. 
+        어떤 값이 불리언 타입으로 필요한 경우에 !!를 사용하여 간단하게 변환할 수 있음
+
+
+> Type 
+    => typeof - return the type of a variable
+    ex)
+    var typeOper = "aaa"
+    document.querySelector('#typeOperator').textContent = typeof typeOper;
+
+    => instanceof - return true if an object is an instance of an object type
+    instanceof 연산자는 생성자 함수의 prototype에 바인딩된 객체가 프로토타입 체인 상에 존재하는지 확인한다. 
+    해당 객체가 프로토타입 체인에 존재 시 해당 프로토타입의 메소드를 상속받는다.
+    ex)ex)ex)ex)
+            // 객체 리터럴 생성
+        const obj = {
+            name: "fgStudy",
+            age: 20,
+            location: "korea"
+        }
+
+        // Object는 빌트인 생성자 함수이다.
+        obj instanceof Object; // true
+
+        // 일반함수는 constructor이다.
+        function a1() {}
+        obj instanceof a1 // false
+
+        // arrow function은 non-constructor이다.
+        const a2 = () => {}
+        obj instanceof a2 // Uncaught TypeError: Function has non-object prototype 'undefined' in instanceof check
+    ex)ex)ex)ex)
+
+> Ternary Operator(삼항연산자)
+ ex) const yourName = isLogin ? 'Yong' : null;
+=> isLogin이 true일 때 'yong'으로 yourName에 집어넣는거고
+    isLogin이 false일 때 null 값을 받는다.
+

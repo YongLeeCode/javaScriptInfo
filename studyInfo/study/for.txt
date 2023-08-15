@@ -1,0 +1,45 @@
+//loop
+Loop has four kinds of things : for loop, for-of loop, for-in loop, while loop
+
+1. for loop
+for(i=0; i<3; i++){
+    i is iterator(반복자)
+}
+-execute code a certain amount of times
+
+2. for-of loop
+for(const el of array){
+    console.log(el);
+}
+-Execute for every element in an array
+-for-of는 array를 위한 loop
+
+3. for-in loop
+for(const key in object){
+    console.log(key);
+    console.log(object[key]);
+}
+-execute for every key in an object
+-object를 활용하여 만든 loop
+
+4. while loop
+while(isLoggedIn){
+    ...
+}
+execute code as long as a condition is true 
+
+>break와 continue로 loop 제어하기
+break같은 경우 특정부분에서 아예 loop이 멈춰버린다.
+ex) for(let i=0; i<5; i++){
+    if(i == 3){
+        break;
+    }
+    console.log(i);
+}//결과는 0,1,2
+continue는 특정부분을 제외하고 loop이 이어서 돌아간다.
+ex) for(let i=0; i<5; i++){
+    if(i == 3){
+        continue;
+    }
+    console.log(i);
+}//결과는 0,1,2,4
